@@ -331,6 +331,8 @@ public class HomeController implements Controller {
     homeView.setEnabled(HomeView.ActionType.EXPORT_TO_OBJ, true);
     homeView.setEnabled(HomeView.ActionType.HELP, true);
     homeView.setEnabled(HomeView.ActionType.ABOUT, true);
+    homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_VOLUME, true);
+    homeView.setEnabled(HomeView.ActionType.DISPLAY_HOME_FURNITURE_VOLUME, true);
     enableCreationToolsActions(homeView);
     homeView.setTransferEnabled(true);
   }
